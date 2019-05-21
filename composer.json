@@ -1,0 +1,21 @@
+{
+    "name": "apility/netflex-context",
+    "description": "A library for swapping context between Netflex sites",
+    "type": "library",
+    "require": {
+        "apility/netflex-sdk": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tommy Stigen Olsen",
+            "email": "tommysolsen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Netflex\\Context\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
